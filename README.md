@@ -1,31 +1,26 @@
-CS 271 - Programming Assignment README file
+CS 271 - Mastermind Solver
 
 Team: Kyungwoo, Yuya, and Jonathan H
 
-Project: Mastermind
+Python version: Python v.2.7.13
 
 Source : http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.1.2546&rep=rep1&type=pdf
 
-Instead of using Alphabets as colors, we used numbers to calculate. 
+--------------------------------------------------------------------------------------------
 
-When you input secret code, please convert as follow
+When you input secret code, please convert as follow:
   'A' = 0, 'B' = 1, 'C' = 2, ..., 'Y' = 25, 'Z' = 26
-
 
 To execute the mastermind solver program, simply type:
 * (Windows) python .\mastermind-hillclimbing.py <numb. of color> <numb. of post> <secret code>
 * (Linux) python mastermind-hillclimbing.py <numb. of color> <numb. of post> <secret code>
 
-Python version: Python v.2.7.13
-
-Example: python .\mastermind-hillclimbing.py 6 4 1 1 2 2 
-
+Example: `python .\mastermind-hillclimbing.py 6 4 1 1 2 2`
 
 Note:
   * This program will automatically create a textfile that contains information
   about the number of guesses and runtime.
   * The codes of Genetic Algorithm and Minimax Algorithm are in reference directory.
-
 
 Benchmark:
   * The benchmark result is written in BENCHMARK.txt.
