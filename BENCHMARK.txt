@@ -1,0 +1,51 @@
+# BENCHMARK RESULTS
+# Hardware: i7 7700 @ 3.6 GHz
+
+Problem1 : 4 pegs/6 colors
+colors: A,B,C,D,E,F                --> 0,1,2,3,4,5
+secret code: F,C,E,D               --> 5,2,4,3
+
+Average 100:
+    Guess number = 4.69
+    Total time = 0.00815000772476
+===========================================================================
+Problem2 : 4 pegs/6 colors
+colors: A,B,C,D,E,F                --> 0,1,2,3,4,5
+secret code: E,A,C,B               --> 4,0,2,1
+
+Average 100:
+    Guess number = 4.37
+    Total time = 0.0098500084877
+===========================================================================
+Problem3 : 6 pegs/9 colors
+colors: A,B,C,D,E,F,G,H,I          --> 0,1,2,3,4,5,6,7,8
+secret code: H,I,I,F,D,A           --> 7,8,8,5,3,0
+
+Average 100:
+    Guess number = 6.99
+    Total time = 0.824349994659
+===========================================================================
+Problem4 : 6 pegs/9 colors
+colors: A,B,C,D,E,F,G,H,I          --> 0,1,2,3,4,5,6,7,8
+secret code: I,D,C,B,F,A           --> 8,3,2,1,5,0
+
+Average 100:
+    Guess number = 6.78
+    Total time = 0.628120012283
+===========================================================================
+Problem5 : 8 pegs/12 colors
+colors: A,B,C,D,E,F,G,H,I,J,K,L    --> 0,1,2,3,4,5,6,7,8,9,10,11
+secret code: L,H,I,G,L,L,K,E       --> 11,7,8,6,11,11,10,4
+
+Average 100:
+    Guess number = 8.88
+    Total time = 48.1271799898
+===========================================================================
+Problem6 : 8 pegs/12 colors
+colors: A,B,C,D,E,F,G,H,I,J,K,L    --> 0,1,2,3,4,5,6,7,8,9,10,11
+secret code: K,K,A,C,L,I,G,F       --> 10,10,0,2,11,8,6,5
+
+Average 10 (not 100):
+    Guess number = 9.4
+    Total time = 128.159799989
+===========================================================================
